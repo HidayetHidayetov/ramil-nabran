@@ -160,7 +160,7 @@ export function ScrollZoom() {
             Səhnəyə <span className="ember-text">yaxınlaş.</span>
           </div>
           <p className="mx-auto mt-2 max-w-md text-sm text-neutral-400">
-            Scroll etdikcə musiqi güclənir — İsti Yay səni yay əhvalına aparır.
+            İsti Yay — səs səhnədən gəlir.
           </p>
         </div>
 
