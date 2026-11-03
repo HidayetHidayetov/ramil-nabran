@@ -33,7 +33,7 @@ export function HeroBg() {
       <div ref={ref} className="h-full w-full will-change-transform">
         <img
           src="/images/hero.jpg"
-          alt="Ramil Nabran — Gecələrim klipindən kadr"
+          alt="Ramil Nabran — Baş Üstə klipindən kadr"
           className="kenburns h-full w-full object-cover"
         />
       </div>
