@@ -1,6 +1,5 @@
 import { Counter, Faq, Reveal, SectionHead } from "@/components/ui";
-import { ScrollZoom } from "@/components/scroll-zoom";
-import { AudioTeaser } from "@/components/audio-teaser";
+import { HeroBg, ScrollZoom } from "@/components/scroll-zoom";
 
 const YT = "https://www.youtube.com/@RamilNabran";
 const SPOTIFY = "https://open.spotify.com/artist/18D9h0yt6D7BHAoyYYVCtp";
@@ -46,10 +45,9 @@ const faqs: [string, string][] = [
 export default function Home() {
   return (
     <div id="top">
-      <AudioTeaser />
       {/* ============ HERO ============ */}
       <section className="grain relative flex min-h-[94vh] items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#1a0b00] via-[#0a0a0f] to-[#0a0a0f]" />
+        <HeroBg />
         <div className="hero-glow absolute inset-0" />
         <div className="pointer-events-none absolute -right-10 top-10 select-none text-[22vw] font-black leading-none outline-text opacity-40 md:text-[16vw]">
           RN
