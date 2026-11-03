@@ -107,7 +107,7 @@ function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-neutral-500 sm:flex-row">
-          <span>© 2026 Ramil Nabran • Tanıtım saytı</span>
+          <span>© 2026 Ramil Nabran • Rəsmi sayt</span>
           <a href="https://hidayetov.com" className="transition hover:text-[#ffc400]">
             Created by <span className="font-bold text-[#ffc400]">hidayetov.com</span>
           </a>

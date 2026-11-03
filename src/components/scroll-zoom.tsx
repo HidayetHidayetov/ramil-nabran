@@ -157,10 +157,10 @@ export function ScrollZoom() {
 
         <div ref={caption} className="absolute bottom-14 px-4 text-center opacity-0">
           <div className="text-3xl font-black md:text-5xl">
-            Səs <span className="ember-text">yaxınlaşır.</span>
+            Səhnəyə <span className="ember-text">yaxınlaş.</span>
           </div>
           <p className="mx-auto mt-2 max-w-md text-sm text-neutral-400">
-            Yaxınlaşdıqca musiqi güclənir — uzaqlaşanda yenə astalaşır.
+            Scroll etdikcə musiqi güclənir — İsti Yay səni yay əhvalına aparır.
           </p>
         </div>
 
