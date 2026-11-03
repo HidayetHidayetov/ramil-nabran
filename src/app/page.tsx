@@ -95,14 +95,26 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ MARQUEE ============ */}
-      <div className="overflow-hidden border-y border-[#ff6a00]/25 bg-[#120801] py-3">
+      {/* ============ MARQUEE: HIT LENTİ ============ */}
+      <div className="overflow-hidden border-y border-[#ff6a00]/25 bg-[#120801] py-4">
         <div className="marquee-track gap-0">
           {[0, 1].map((k) => (
             <div key={k} className="flex shrink-0 items-center">
-              {marquee.map((m) => (
-                <span key={`${k}-${m}`} className="flex items-center whitespace-nowrap px-6 text-sm font-black tracking-widest text-[#ffb020]">
-                  {m} <span className="ml-12 text-[#ff4d00]/50">◆</span>
+              {marquee.map((m, i) => (
+                <span key={`${k}-${m}`} className="flex items-center whitespace-nowrap px-6 text-2xl font-black tracking-tight md:text-3xl">
+                  <span className={i % 2 === 0 ? "ember-text" : "outline-text"}>{m}</span>
+                  <span className="eq ml-12"><span /><span /><span /><span /></span>
+                </span>
+              ))}
+            </div>
+          ))}
+        </div>
+        <div className="marquee-track marquee-rev mt-3 gap-0 opacity-70">
+          {[0, 1].map((k) => (
+            <div key={k} className="flex shrink-0 items-center">
+              {["HIP-HOP", "POP-REP", "DANCE", "SƏHNƏ", "KLİP", "1993-DƏN", "BAKI"].map((m) => (
+                <span key={`${k}-${m}`} className="flex items-center whitespace-nowrap px-6 text-xs font-bold tracking-[0.3em] text-[#ffb020]">
+                  ♪ {m}
                 </span>
               ))}
             </div>

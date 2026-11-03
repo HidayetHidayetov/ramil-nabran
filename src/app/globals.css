@@ -98,6 +98,13 @@ body {
   width: max-content;
   animation: marquee 26s linear infinite;
 }
+@keyframes marquee-rev {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+.marquee-rev {
+  animation: marquee-rev 34s linear infinite;
+}
 
 /* equalizer bars */
 @keyframes eq {
